@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "role": "customer",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "role": "customer",
+      "isActive": false
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 120.99,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Noise Cancelling Headphones",
+      "category": "Audio",
+      "price": 249.50,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Ergonomic Chair",
+      "category": "Furniture",
+      "price": 399.99,
+      "inStock": false
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productId": 1,
+      "quantity": 2,
+      "total": 241.98,
+      "status": "shipped",
+      "orderDate": "2025-10-01"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "productId": 3,
+      "quantity": 1,
+      "total": 399.99,
+      "status": "pending",
+      "orderDate": "2025-10-03"
+    }
+  ]
+}
